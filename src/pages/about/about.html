@@ -1,0 +1,39 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      E-Laundry
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content class="background">
+  <ion-card>
+    <ion-card-header>
+      Daftar
+    </ion-card-header>
+    <ion-card-content>
+      <ion-list no-line>
+        <ion-item>
+          <ion-input type="text" placeholder="Name"></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-input type="text" placeholder="Username"></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-input type="email" placeholder="Email"></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-input type="date" placeholder="Tanggal Lahir:DDMMYYYY"></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-input type="password" placeholder="Password"></ion-input>
+        </ion-item>
+      </ion-list>
+      <button ion-button block outline color="light" ion-button (click)="launchBerandaPage()">Sign Up</button>
+      <p>OR</p>
+      <button ion-button block color="facebook">
+        <ion-icon name="logo-facebook"></ion-icon>  Sign up with facebook
+      </button>
+    </ion-card-content>
+  </ion-card>
+</ion-content>
