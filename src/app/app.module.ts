@@ -12,6 +12,7 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { HistoryPage } from '../pages/history/history';
 import { AccountPage } from '../pages/account/account';
+import { LaundrydetailPage } from '../pages/laundrydetail/laundrydetail';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { AccountPage } from '../pages/account/account';
     WelcomePage,
     BerandaPage,
     HistoryPage,
-    AccountPage
+    AccountPage,
+    LaundrydetailPage
   ],
   imports: [
     BrowserModule,
@@ -37,7 +39,8 @@ import { AccountPage } from '../pages/account/account';
     WelcomePage,
     BerandaPage,
     HistoryPage,
-    AccountPage
+    AccountPage,
+    LaundrydetailPage
   ],
   providers: [
     StatusBar,

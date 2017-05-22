@@ -23,7 +23,8 @@
           <ion-input type="email" placeholder="Email"></ion-input>
         </ion-item>
         <ion-item>
-          <ion-input type="date" placeholder="Tanggal Lahir:DDMMYYYY"></ion-input>
+          <ion-label>Tanggal Lahir</ion-label>
+          <ion-datetime displayFormat="MMM DD YYYY" [(ngModel)]="event.month"></ion-datetime>
         </ion-item>
         <ion-item>
           <ion-input type="password" placeholder="Password"></ion-input>

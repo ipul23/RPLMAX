@@ -8,6 +8,10 @@ import { TabsPage } from '../tabs/tabs';
 })
 export class DaftarPage {
 
+  public event = {
+    month: '1990-02-19',
+  }
+
   constructor(public navCtrl: NavController) {
 
   }
