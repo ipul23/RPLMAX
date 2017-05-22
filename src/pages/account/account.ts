@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
-
+import {WelcomePage } from '../welcome/welcome';
 /*
   Generated class for the Account page.
 
@@ -15,6 +15,10 @@ export class AccountPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {}
 
+launchWelcomePage(){
+    this.navCtrl.push(WelcomePage);
+    window.location.reload();
+  }
   ionViewDidLoad() {
     console.log('ionViewDidLoad AccountPage');
   }
