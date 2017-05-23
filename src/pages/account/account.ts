@@ -1,6 +1,8 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
 import {WelcomePage } from '../welcome/welcome';
+import {TentangPage } from '../tentang/tentang';
+import {ReviewPage } from '../review/review';
 /*
   Generated class for the Account page.
 
@@ -23,4 +25,11 @@ launchWelcomePage(){
     console.log('ionViewDidLoad AccountPage');
   }
 
+  openNavTentangPage() {
+    this.navCtrl.push(TentangPage);
+  }
+
+launchReviewPage(){
+    this.navCtrl.push(ReviewPage);
+  }
 }

@@ -13,6 +13,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 import { HistoryPage } from '../pages/history/history';
 import { AccountPage } from '../pages/account/account';
 import { LaundrydetailPage } from '../pages/laundrydetail/laundrydetail';
+import { TentangPage } from '../pages/tentang/tentang';
+import { ReviewPage } from '../pages/review/review';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,9 @@ import { LaundrydetailPage } from '../pages/laundrydetail/laundrydetail';
     BerandaPage,
     HistoryPage,
     AccountPage,
-    LaundrydetailPage
+    LaundrydetailPage,
+    TentangPage,
+    ReviewPage
   ],
   imports: [
     BrowserModule,
@@ -40,7 +44,9 @@ import { LaundrydetailPage } from '../pages/laundrydetail/laundrydetail';
     BerandaPage,
     HistoryPage,
     AccountPage,
-    LaundrydetailPage
+    LaundrydetailPage,
+    TentangPage,
+    ReviewPage
   ],
   providers: [
     StatusBar,

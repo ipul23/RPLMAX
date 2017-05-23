@@ -30,6 +30,7 @@
       <ion-icon name='key' item-start></ion-icon>
       Change Password
     </ion-item>
+
   </ion-list>
 
     <ion-list>
@@ -37,7 +38,7 @@
       FEEDBACK
     </ion-list-header>
 
-    <ion-item>
+    <ion-item (click)="launchReviewPage()">
       <ion-icon name='create' item-start></ion-icon>
       Write to Us
     </ion-item>
@@ -53,7 +54,7 @@
       ABOUT
     </ion-list-header>
 
-    <ion-item>
+    <ion-item (click)="openNavTentangPage(item)">
       <ion-icon name='help' item-start></ion-icon>
      About Us
     </ion-item>
