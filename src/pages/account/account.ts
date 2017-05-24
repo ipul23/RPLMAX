@@ -3,6 +3,8 @@ import { NavController, NavParams } from 'ionic-angular';
 import {WelcomePage } from '../welcome/welcome';
 import {TentangPage } from '../tentang/tentang';
 import {ReviewPage } from '../review/review';
+import {EditprofilePage} from '../editprofile/editprofile';
+import {EditpasswordPage} from '../editpassword/editpassword';
 /*
   Generated class for the Account page.
 
@@ -31,5 +33,13 @@ launchWelcomePage(){
 
 launchReviewPage(){
     this.navCtrl.push(ReviewPage);
+  }
+
+launchEditprofilePage(){
+    this.navCtrl.push(EditprofilePage);
+  }
+
+launchEditpasswordPage(){
+    this.navCtrl.push(EditpasswordPage);
   }
 }

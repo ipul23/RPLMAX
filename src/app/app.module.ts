@@ -15,6 +15,8 @@ import { AccountPage } from '../pages/account/account';
 import { LaundrydetailPage } from '../pages/laundrydetail/laundrydetail';
 import { TentangPage } from '../pages/tentang/tentang';
 import { ReviewPage } from '../pages/review/review';
+import {EditprofilePage } from '../pages/editprofile/editprofile';
+import {EditpasswordPage} from '../pages/editpassword/editpassword';
 
 @NgModule({
   declarations: [
@@ -28,7 +30,9 @@ import { ReviewPage } from '../pages/review/review';
     AccountPage,
     LaundrydetailPage,
     TentangPage,
-    ReviewPage
+    ReviewPage,
+    EditprofilePage,
+    EditpasswordPage
   ],
   imports: [
     BrowserModule,
@@ -46,7 +50,9 @@ import { ReviewPage } from '../pages/review/review';
     AccountPage,
     LaundrydetailPage,
     TentangPage,
-    ReviewPage
+    ReviewPage,
+    EditprofilePage,
+    EditpasswordPage
   ],
   providers: [
     StatusBar,
